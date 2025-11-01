@@ -1,0 +1,54 @@
+# =========================
+# 🌐 React Frontend
+# =========================
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.vite/
+frontend/.parcel-cache/
+frontend/.DS_Store
+
+# Log files
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# =========================
+# ☕ Spring Boot Backend
+# =========================
+backend/target/
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/.idea/
+backend/.mvn/
+backend/.env
+backend/mvnw
+backend/mvnw.cmd
+
+# Logs
+backend/*.log
+*.log
+
+# =========================
+# 🧠 General / System Files
+# =========================
+.DS_Store
+Thumbs.db
+*.iml
+*.class
+
+# =========================
+# 🧰 VS Code
+# =========================
+.vscode/
+*.code-workspace
+
+# =========================
+# 🔐 Environment Files
+# =========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
